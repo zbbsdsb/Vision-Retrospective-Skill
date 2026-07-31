@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" role="img" aria-label="VR Loop five phases">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e1a"/>
+      <stop offset="1" stop-color="#141a30"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <style>
+      .num { font: 700 22px -apple-system,Segoe UI,Helvetica,Arial,sans-serif; fill:#0a0e1a; }
+      .title { font: 700 17px -apple-system,Segoe UI,Helvetica,Arial,sans-serif; fill:#f1f5f9; }
+      .desc { font: 400 12.5px -apple-system,Segoe UI,Helvetica,Arial,sans-serif; fill:#94a3b8; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="300" fill="url(#bg)"/>
+
+  <!-- connectors -->
+  <g stroke="url(#accent)" stroke-width="3" stroke-opacity="0.5" fill="none">
+    <path d="M250 140 L287 140"/>
+    <path d="M497 140 L535 140"/>
+    <path d="M745 140 L782 140"/>
+    <path d="M992 140 L1030 140"/>
+  </g>
+  <g fill="url(#accent)">
+    <path d="M287 140 l-12 -7 v14 z"/>
+    <path d="M535 140 l-12 -7 v14 z"/>
+    <path d="M782 140 l-12 -7 v14 z"/>
+    <path d="M1030 140 l-12 -7 v14 z"/>
+  </g>
+
+  <!-- Phase 0 -->
+  <g>
+    <rect x="40" y="60" width="210" height="160" rx="16" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="145" cy="100" r="22" fill="url(#accent)"/>
+    <text class="num" x="145" y="107" text-anchor="middle">0</text>
+    <text class="title" x="145" y="152" text-anchor="middle">Intake &amp; Scan</text>
+    <text class="desc" x="145" y="178" text-anchor="middle">Score the vision 0&#8211;100</text>
+  </g>
+  <!-- Phase 1 -->
+  <g>
+    <rect x="287.5" y="60" width="210" height="160" rx="16" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="392.5" cy="100" r="22" fill="url(#accent)"/>
+    <text class="num" x="392.5" y="107" text-anchor="middle">1</text>
+    <text class="title" x="392.5" y="152" text-anchor="middle">Intent Dig</text>
+    <text class="desc" x="392.5" y="178" text-anchor="middle">Ground the real intent</text>
+  </g>
+  <!-- Phase 2 -->
+  <g>
+    <rect x="535" y="60" width="210" height="160" rx="16" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="640" cy="100" r="22" fill="url(#accent)"/>
+    <text class="num" x="640" y="107" text-anchor="middle">2</text>
+    <text class="title" x="640" y="152" text-anchor="middle">Claim &amp; Anchor</text>
+    <text class="desc" x="640" y="178" text-anchor="middle">Prove each claim true</text>
+  </g>
+  <!-- Phase 3 -->
+  <g>
+    <rect x="782.5" y="60" width="210" height="160" rx="16" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="887.5" cy="100" r="22" fill="url(#accent)"/>
+    <text class="num" x="887.5" y="107" text-anchor="middle">3</text>
+    <text class="title" x="887.5" y="152" text-anchor="middle">Backward Path</text>
+    <text class="desc" x="887.5" y="178" text-anchor="middle">Synthesize the steps</text>
+  </g>
+  <!-- Phase 4 -->
+  <g>
+    <rect x="1030" y="60" width="210" height="160" rx="16" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="1135" cy="100" r="22" fill="url(#accent)"/>
+    <text class="num" x="1135" y="107" text-anchor="middle">4</text>
+    <text class="title" x="1135" y="152" text-anchor="middle">Anti-Hollow</text>
+    <text class="desc" x="1135" y="178" text-anchor="middle">Prove the plan is solid</text>
+  </g>
+</svg>

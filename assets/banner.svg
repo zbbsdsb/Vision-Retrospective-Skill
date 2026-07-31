@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Vision Retrospective banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e1a"/>
+      <stop offset="0.55" stop-color="#10142a"/>
+      <stop offset="1" stop-color="#1a1130"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#dots)"/>
+  <circle cx="180" cy="70" r="260" fill="url(#glow)"/>
+  <circle cx="1130" cy="300" r="280" fill="url(#glow2)"/>
+
+  <!-- backward arrows motif (retrospective) -->
+  <g transform="translate(980,60)" stroke="url(#accent)" stroke-width="3" fill="none" opacity="0.95">
+    <g opacity="0.30">
+      <path d="M150 30 L40 30 L70 5 M40 30 L70 55"/>
+    </g>
+    <g opacity="0.60">
+      <path d="M150 95 L20 95 L55 66 M20 95 L55 124"/>
+    </g>
+    <g opacity="1">
+      <path d="M150 160 L0 160 L40 128 M0 160 L40 192"/>
+    </g>
+  </g>
+
+  <text x="80" y="152" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB',-apple-system,Segoe UI,sans-serif" font-size="76" font-weight="800" fill="#f8fafc">愿景回溯</text>
+  <text x="86" y="206" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="34" font-weight="600" fill="url(#accent)" letter-spacing="3">VISION RETROSPECTIVE</text>
+  <text x="86" y="250" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" fill="#cbd5e1">Turn hollow visions into actionable, verifiable paths.</text>
+
+  <rect x="86" y="282" width="120" height="6" rx="3" fill="url(#accent)"/>
+  <text x="86" y="322" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="16" fill="#94a3b8">From claim &#8594; evidence anchor &#8594; executable path</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Hollowness score delta">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e1a"/>
+      <stop offset="1" stop-color="#141a30"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ef4444"/><stop offset="1" stop-color="#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <style>
+      .h { font: 700 28px -apple-system,Segoe UI,Helvetica,Arial,sans-serif; fill:#f8fafc; }
+      .label { font: 400 15px -apple-system,Segoe UI,Helvetica,Arial,sans-serif; fill:#cbd5e1; }
+      .val { font: 700 20px -apple-system,Segoe UI,Helvetica,Arial,sans-serif; fill:#ffffff; }
+      .foot { font: 400 14px -apple-system,Segoe UI,Helvetica,Arial,sans-serif; fill:#94a3b8; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="340" fill="url(#bg)"/>
+  <text class="h" x="60" y="56">Hollowness score &#8212; input vs. anchored output</text>
+
+  <!-- Row 1: 54 -->
+  <text class="label" x="400" y="118" text-anchor="end">"I want a beautiful, seamless, intuitive app&#8230;"</text>
+  <rect x="420" y="92" width="410" height="36" rx="8" fill="url(#amber)"/>
+  <text class="val" x="842" y="117">54</text>
+
+  <!-- Row 2: 88 -->
+  <text class="label" x="400" y="188" text-anchor="end">"&#35266;&#32791;&#27969;&#30021;&#26131;&#29992;&#30340;&#26234;&#33021;&#31995;&#32479;"</text>
+  <rect x="420" y="162" width="669" height="36" rx="8" fill="url(#red)"/>
+  <text class="val" x="1101" y="187">88</text>
+
+  <!-- Row 3: 12 -->
+  <text class="label" x="400" y="258" text-anchor="end">"Build a CLI: 500 CSV &#8594; Parquet in &lt;5min&#8230;"</text>
+  <rect x="420" y="232" width="91" height="36" rx="8" fill="url(#green)"/>
+  <text class="val" x="523" y="257">12</text>
+
+  <text class="foot" x="60" y="318">Lower is better &#8212; re-run the scorer in Phase 4 to prove the plan is no longer hollow.</text>
+</svg>
