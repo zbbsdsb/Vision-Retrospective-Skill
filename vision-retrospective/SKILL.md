@@ -79,6 +79,12 @@ missing verifiability dimensions. Use it in Phase 0 and Phase 4.
 Full explanation of the VR Loop: the forward-vs-backward thesis, each phase's
 techniques, questioning discipline, anti-patterns, and a worked example.
 
+### references/foundations.md
+Citation map proving each technique is academically grounded (Backward Design,
+IEEE 830 verifiability, GQM, BDD/Specification by Example, means-ends analysis,
+WBS) plus honest limitations of the heuristic score. Consult when the user asks
+whether the method is scientifically backed.
+
 ### references/templates.md
 Shapes for every artifact: Hollowness Report, Grounded Vision, Claim → Anchor
 table, Implementation Path, and the final Vision Retrospective Report.

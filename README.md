@@ -146,6 +146,15 @@ measurable timer; then broaden to multi-platform + analytics.
 
 </details>
 
+## Theoretical foundations
+
+Every move in the VR Loop maps to established methodology — Backward Design
+(Wiggins & McTighe, 1998), IEEE 830 verifiability, GQM (Basili & Weiss, 1984),
+Specification by Example / BDD, means-ends analysis (Newell & Simon, 1972), and
+WBS. The synthesis and the hollowness score are the author's; see
+[`vision-retrospective/references/foundations.md`](vision-retrospective/references/foundations.md)
+for the full citation map and honest limitations.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
